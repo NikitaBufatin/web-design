@@ -1,3 +1,16 @@
 * {
   box-sizing: border-box;
 }
+.main {
+  width: 500px;
+  background: rgb(196, 231, 154);
+  position: relative;
+  padding-left: 60px;
+}
+
+.logo {
+  height: 25px;
+  width: 120px;
+  background: rgb(71, 116, 19);
+  margin-top: 50px;
+}

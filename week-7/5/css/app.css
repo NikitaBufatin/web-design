@@ -1,3 +1,57 @@
 * {
   box-sizing: border-box;
 }
+.main {
+  width: 500px;
+  background: rgb(196, 231, 154);
+  position: relative;
+  padding-left: 20px;
+}
+  .navbar {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    height: 25px;
+    width: 120px;
+    background: rgb(71, 116, 19);
+    margin-top: 20px;
+  }
+  .menu-item {
+    height: 25px;
+    width: 25px;
+    background: rgb(107, 154, 51);
+    display: inline-block;
+    justify-content: space-between;
+  }
+  .menu-item:first-child {
+    margin-left: 280px;
+    margin-top: 20px;
+  }
+  .intro {
+    height: 270px;
+    width: 455px;
+    background: rgb(41, 77, 0);
+    margin-top: 20px;
+  }
+  .secondary {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-right: 25px;
+  }
+  .secondary-item {
+    height:60px;
+    width: 100px;
+    background: rgb(41, 77, 0);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  .footer {
+    height:50px;
+    flex-grow: 1;
+    background: rgb(41, 77, 0);
+    margin-top: 10px;
+    margin-left: -20px;
+  }
