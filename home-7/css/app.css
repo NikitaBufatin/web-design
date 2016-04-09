@@ -11,13 +11,14 @@ html, body {
 .main {
   height: 100%;
   width: 100%;
-  padding: 10px;
+  padding: 30px;
   position: relative;
 }
 .navbar {
   left: 30px;
   right: 30px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   position: absolute;
 }
@@ -41,9 +42,54 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
 }
 .content {
   width: 1000px;
+  height: 1000px;
   color: white;
   padding: 0 50px;
+}
+.title {
+  font-size: 90px;
+  border-bottom: 4px;
+  border-color: white;
+}
+.description {
+  width: 700px;
+  font-size: 20px;
+}
+.place {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 20px 20px 0;
+  font-size: 20px;
+}
+.botton {
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #00b2ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color: #00b2ed;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  color: inherit;
 }
